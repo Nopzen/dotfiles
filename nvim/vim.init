@@ -1,0 +1,57 @@
+let mapleader = "`"
+
+set rtp+=~/.fzf               "enable fuzzy finder
+
+set shell=zsh                 "set bash as prompt for vim
+
+set tabstop=2                 "set tabwidth to 2
+set shiftwidth=2              "cant remember but needed for tabs as spaces
+set softtabstop=2             "set the insert mode tab size to spaces
+set expandtab
+set number                    "enables line numbers in editor
+set numberwidth=5             "sets width of the line number cols
+
+set list
+set listchars=eol:⏎,tab:»·,trail:·,nbsp:⎵ "enable hidden chars to be seen in editor
+
+" When using :vsp or :vs creates new pane
+" in the editor, to navigate these pane the following
+" bindings have been mapped to help navigate
+
+"switch to pane:  LEFT
+map <C-j> <C-W>j
+"switch to pane:  UP
+map <C-k> <C-W>k
+"switch to pane:  DOWN
+map <C-h> <C-W>h
+"switch to pane:  RIGHT
+map <C-l> <C-W>l
+
+" Vim Plugins (vim-plug)
+call plug#begin('~/.local/share/nvim/site/plugged')
+  " Tools
+  Plug 'Shougo/deoplete.nvim' 
+  Plug 'dense-analysis/ale'
+  Plug 'junegunn/fzf.vim'
+  Plug 'ayu-theme/ayu-vim'
+  Plug 'HerringtonDarkholme/yats.vim'
+
+  "Javascript Plugins
+  Plug 'pangloss/vim-javascript'
+  Plug 'mxw/vim-jsx'
+
+  "Javasctipt Tools
+  Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+  Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+call plug#end()
+
+" Colorscheme
+" Have to bedefined after Vim Plugins
+" to have the ayu-vim plugin loaded
+set termguicolors
+let ayucolor="mirage"
+colorscheme ayu
+
+" Untill better spot is found
+let g:deoplete#enable_at_startup = 1
+

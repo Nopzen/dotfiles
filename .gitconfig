@@ -1,0 +1,80 @@
+[user]
+name = Lars Krieger
+email = lars.krieger@gmail.com
+
+[color]
+   branch = always
+   diff = always
+   grep = always
+   interactive = always
+   pager = true
+   showbranch = always
+   status = always
+   ui = always
+
+[apply]
+   whitespace = fix
+
+[branch]
+   autosetupmerge =  true
+   #autosetuprebase = always
+
+[merge]
+   # Include summaries of merged commits in newly created merge commit messages
+   log = true
+
+# Use `origin` as the default remote on the `master` branch in all cases
+[branch "master"]
+   remote = origin
+   merge = refs/heads/master
+
+[push]
+   default = tracking
+
+[fetch]
+   recurseSubmodules = true
+
+[log]
+   decorate = short
+
+[alias]
+   dc = diff --cached
+   df = diff --word-diff
+   co = checkout
+   cp = cherry-pick
+   st = status
+   br = branch -a
+   lg = log --graph --pretty=medium --abbrev-commit --date=local
+   lgb = log --graph --pretty=medium --abbrev-commit --date=local --branches --all
+   lol = log --graph --oneline
+   lola = log --graph --oneline --all
+
+   # Show files ignored by git:
+   ign = ls-files -o -i --exclude-standard
+
+   # Show verbose output about tags, branches or remotes
+   tags = tag -l
+   branches = branch -a
+   remotes = remote -v
+
+[merge]
+ff = false
+
+# URL shorthands
+[url "git@github.com:"]
+   insteadOf = "gh:"
+   pushInsteadOf = "github:"
+   pushInsteadOf = "git://github.com/"
+[url "git://github.com/"]
+   insteadOf = "github:"
+[url "git@gist.github.com:"]
+   insteadOf = "gst:"
+   pushInsteadOf = "gist:"
+   pushInsteadOf = "git://gist.github.com/"
+[url "git://gist.github.com/"]
+   insteadOf = "gist:"
+[pull]
+	rebase = preserve
+
+[core]
+	editor = /usr/bin/vim
