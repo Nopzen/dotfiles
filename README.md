@@ -1,6 +1,12 @@
 # Nopzen's Setup new machine
 
-All of this should eventually be moved to bash scripts to be setup automatically.
+## Installation Scripts
+The two files `install-osx` & `install-ubuntu`, are two installation scripts to prepare new machines with my enviroment as described below.
+They will created folders of relevans.
+The will fetch the packages in order and install whats needed.
+
+To use the files write `chmod +x ./install-<os>.sh` to make the files executable
+The name should explain what enviroment is needed :)
 
 ## Folders of relevans
 
