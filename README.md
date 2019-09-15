@@ -10,17 +10,12 @@ The name should explain what enviroment is needed :)
 
 ## Folders of relevans
 
-`$HOME/code`                              * where code lives
-
-`$HOME/code/go`                           * where Go code lives (also known as \$GOROOT).
-
-`$HOME/code/javascript`                   * where Javascript code lives.
-
-`$HOME/code/rust`                         * where Rust code lives
-
-`$HOME/.config/nvim`                      * where nvim/vim config lives
-
-`$HOME/.local/share/nvim/site/plugged`    * where vim plugins & plugin-conf. lives
+ - `$HOME/code`, where code/projects lives
+ - `$HOME/code/go`, where Go code lives (also known as $GOPATH).
+ - `$HOME/code/javascript`, where Javascript code lives.
+ - `$HOME/code/rust`, where Rust code lives
+ - `$HOME/.config/nvim`, where nvim/vim config lives
+ - `$HOME/.local/share/nvim/site/plugged`, where vim plugins & plugin-conf. lives
 
 ## Shell
 
@@ -47,6 +42,9 @@ For the package `deoplete` to work package `pyvim version 0.3.0` must be install
 [Fuzzy Search: https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 
 - fuzzy search is required for a vim plugin, and also adds the fzf cli tool, to fuzzy search files on the OS
+
+[Ripgrep: https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
+- used with my vim config to create function :Find <term> for searching strings in files
 
 ## Development Languages
 
