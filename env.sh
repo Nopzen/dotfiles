@@ -7,10 +7,9 @@
 
 # Exports
 export VIM_PLUGINS_PATH="$HOME/.local/share/nvim/site/plugged"
-export CARGOPATH="$HOME/.cargo"
-export GOROOT="$HOME/usr/local/go"
-export GOPATH="$HOME/code/Go"
-export PATH=$GOPATH/bin:$GOROOT/bin:CARGOPATH/bin:$PATH
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/code/Go
+export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.cargo/bin:$PATH
 
 # nvm - node version manager
 export NVM_DIR="$HOME/.nvm"
@@ -21,6 +20,13 @@ export NVM_DIR="$HOME/.nvm"
 # https://github.com/junegunn/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# --files: List files that would be searched but do not search
+# --no-ignore: Do not respect .gitignore, etc...
+# --hidden: Search hidden files and folders
+# --follow: Follow symlinks
+# --glob: Additional conditions for search (in this case ignore everything in the .git/ folder)
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
+
 # Config Aliases
 alias zshconfig="nvim $HOME/.zshrc"
 alias vimconfig="nvim $HOME/.config/nvim/init.vim"
@@ -30,4 +36,4 @@ alias envconfig="nvim $HOME/env.sh"
 alias projects="$HOME/code"
 alias ohmyzsh="$HOME/.oh-my-zsh"
 alias vimplugins="$VIM_PLUGINS_PATH"
-
+
