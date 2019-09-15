@@ -56,3 +56,9 @@ For the package `deoplete` to work package `pyvim version 0.3.0` must be install
 [Go: https://golang.org/doc/install](https://golang.org/doc/install)
 
 [Rust: https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
+
+## Special Thanks
+[Alex Froscia](https://github.com/alexlafroscia/) and he's blog post [Writing JS in Vim](https://medium.com/@alexlafroscia/writing-js-in-vim-4c971a95fd49)
+without this post I don't think I would have gotten started on Vim, he lays down a very basic introduction thats easy to expand on, so thanks!
+
+Another thanks to Otis Wright for this blog post: [Supercharge vim with fzf and ripgrep](https://medium.com/@crashybang/supercharge-vim-with-fzf-and-ripgrep-d4661fc853d2) Great read on getting into extending fzf within NeoVim with the `:Find` Command
