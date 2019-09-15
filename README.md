@@ -1,6 +1,6 @@
 # Nopzen's Setup new machine
 
-## Installation Scripts
+## Installation Scripts (Under development)
 The two files `install-osx` & `install-ubuntu`, are two installation scripts to prepare new machines with my enviroment as described below.
 They will created folders of relevans.
 The will fetch the packages in order and install whats needed.
@@ -20,9 +20,12 @@ The name should explain what enviroment is needed :)
 ## Shell
 
 Shell of choise is [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) which is highly configurable.
+
 Shell extras [oh-my-zsh](https://ohmyz.sh/) adds themes ad more.
 
-Themes:[**Powerline9k**](https://github.com/Powerlevel9k/powerlevel9k) - shell theme - shell font
+**Theme:** [Powerline9k](https://github.com/Powerlevel9k/powerlevel9k)
+
+**Font:** [Powerline9k](https://github.com/Powerlevel9k/powerlevel9k)
 
 ## Editor
 
