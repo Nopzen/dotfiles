@@ -19,6 +19,8 @@ The name should explain what enviroment is needed :)
 
 ## Shell
 
+Tmux for multiplexing. `sudo apt-get tmux`, see .tmux.conf for configuration
+
 Shell of choise is [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) which is highly configurable.
 
 Shell extras [oh-my-zsh](https://ohmyz.sh/) adds themes ad more.
