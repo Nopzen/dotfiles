@@ -19,15 +19,18 @@ The name should explain what enviroment is needed :)
 
 ## Shell
 
-Tmux for multiplexing. `sudo apt-get tmux`, see .tmux.conf for configuration
+Tmux for multiplexing. `sudo apt-get tmux`, see .tmux.conf for configuration **NB> Ubuntu setup only**
 
 Shell of choise is [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) which is highly configurable.
 
 Shell extras [oh-my-zsh](https://ohmyz.sh/) adds themes ad more.
 
-**Theme:** [Powerline9k](https://github.com/Powerlevel9k/powerlevel9k)
+**Theme:** [avit](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#avit)
 
-**Font:** [Powerline9k](https://github.com/Powerlevel9k/powerlevel9k)
+**Font:** [Fira Code](https://github.com/tonsky/FiraCode)
+
+**Terminal:** iTerm2 **OSX Only**
+**Terminal Color Scheme:** [AfterGlow](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Afterglow.itermcolors) **OSX Only**
 
 ## Editor
 
