@@ -17,6 +17,10 @@ The name should explain what enviroment is needed :)
  - `$HOME/.config/nvim`, where nvim/vim config lives
  - `$HOME/.local/share/nvim/site/plugged`, where vim plugins & plugin-conf. lives
 
+## Required Software
+
+
+
 ## Shell
 
 Tmux for multiplexing. `sudo apt-get tmux`, see .tmux.conf for configuration **NB> Ubuntu setup only**
@@ -30,9 +34,28 @@ Shell extras [oh-my-zsh](https://ohmyz.sh/) adds themes ad more.
 **Font:** [Fira Code](https://github.com/tonsky/FiraCode)
 
 **Terminal:** iTerm2 **OSX Only**
+
 **Terminal Color Scheme:** [AfterGlow](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Afterglow.itermcolors) **OSX Only**
 
-## Editor
+## Editor (When i just wanna cruise code)
+Editor of choise is [Visual Studio Code](https://code.visualstudio.com/), with the following plugins added:
+
+[Theme: AfterGlow](https://marketplace.visualstudio.com/items?itemName=gerane.Theme-Afterglow)
+
+[Keymaps: Atom](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
+
+[Font: Fira Code](https://github.com/tonsky/FiraCode)
+
+[Syntax: Javascript] - Default from VsCode
+
+[Syntax: Golang](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)
+
+[Syntax: Rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
+
+[Syntax: Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+
+
+## Editor (When i feel Hardcore xD)
 
 Editor of choise is [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim) version 0.3.8 or higher.
 Plugin manager of choise [VimPlug](https://github.com/junegunn/vim-plug) 0.10.0 or higher.
@@ -47,6 +70,10 @@ For the package `deoplete` to work package `pyvim version 0.3.0` must be install
 
 ## System tools
 
+[Homebrew OSX Package manager](https://brew.sh/) **OSX Only**
+ 
+- Package manager for OSX
+
 [Fuzzy Search: https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 
 - fuzzy search is required for a vim plugin, and also adds the fzf cli tool, to fuzzy search files on the OS
@@ -56,11 +83,15 @@ For the package `deoplete` to work package `pyvim version 0.3.0` must be install
 
 ## Development Languages
 
-[Nodejs: https://nodejs.org/en/download/package-manager/](https://nodejs.org/en/download/package-manager/)
+[Nodejs: https://nodejs.org/en/download/package-manager/#nvm](https://nodejs.org/en/download/package-manager/#nvm)
 
 [Go: https://golang.org/doc/install](https://golang.org/doc/install)
 
 [Rust: https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
+
+## Development Tools
+
+[Docker: https://docs.docker.com/docker-for-mac/install/](https://docs.docker.com/docker-for-mac/install/)
 
 ## Special Thanks
 [Alex Froscia](https://github.com/alexlafroscia/) and he's blog post [Writing JS in Vim](https://medium.com/@alexlafroscia/writing-js-in-vim-4c971a95fd49)
