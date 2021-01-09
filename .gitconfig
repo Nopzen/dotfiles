@@ -58,7 +58,7 @@ email = lars.krieger@gmail.com
    remotes = remote -v
 
 [merge]
-ff = false
+ff = true
 
 # URL shorthands
 [url "git@github.com:"]
