@@ -5,35 +5,16 @@
 
 #!/bin/zsh
 
-# Exports
-export VIM_PLUGINS_PATH="$HOME/.local/share/nvim/site/plugged"
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/code/Go
-export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.cargo/bin:$PATH
+# Config Aliases
+alias zshconfig="vim $HOME/.zshrc"
+alias envconfig="vim $HOME/env.sh"
+
+# Directory Aliases
+alias open-source="$HOME/open-source"
+alias repositories="$HOME/repositories"
+alias ssh-start="eval `ssh-agent`"
 
 # nvm - node version manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
-# FuzyFinder
-# https://github.com/junegunn/fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# --files: List files that would be searched but do not search
-# --no-ignore: Do not respect .gitignore, etc...
-# --hidden: Search hidden files and folders
-# --follow: Follow symlinks
-# --glob: Additional conditions for search (in this case ignore everything in the .git/ folder)
-export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
-
-# Config Aliases
-alias zshconfig="nvim $HOME/.zshrc"
-alias vimconfig="nvim $HOME/.config/nvim/init.vim"
-alias envconfig="nvim $HOME/env.sh"
-
-# Directory Aliases
-alias projects="$HOME/code"
-alias ohmyzsh="$HOME/.oh-my-zsh"
-alias vimplugins="$VIM_PLUGINS_PATH"
-
