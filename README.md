@@ -46,3 +46,17 @@ So because of my tendency to often clean up my machine, I use VM's as developmen
 Personally I use Digitalocean :)
 
 _NB: This setup is to be tested on Window WSL 2.0 (Windows sub system for linux)_
+
+# 4 Software
+
+A small curated list of tools, used in this setup, some might come by default from Ubuntu
+
+1. `zsh` & `oh-my-zsh` for a more personalized terminal experience.
+2. `docker` for containerized application development.
+3. `terraform` running terraform command for to keep my infrastructure as code.
+4. `git` version control of code bases.
+5. `nodejs` preferred development stack.
+6. `htop` system monitoring.
+7. `tmux` terminal multiplexing.
+8. `VSCode` Code text editor.
+9. `vim` fast code editing and git dialogs.
