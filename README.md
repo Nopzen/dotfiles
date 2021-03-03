@@ -36,3 +36,13 @@ I run VSCode on my _local_ machine.
 - [Tool: Hashicorp Terraform](https://github.com/hashicorp/vscode-terraformt)
 - [Tool: Git lens](https://github.com/eamodio/vscode-gitlens)
 - [Tool: Spell checker](https://github.com/streetsidesoftware/vscode-spell-checker)
+
+# 3 Platform / Local / Remote
+
+My daily driver machine is a Ubuntu 20.04 laptop, running just a slim version of Ubuntu, and VSCode, as I'm a OCD freak I like to keep my machine clean for stuff i don't, and pushes all my development environments to Remotes. That said I do have the bare minimum of Node, Git running on my machine should I be offline for longer periods of time durning travel etc.
+
+So because of my tendency to often clean up my machine, I use VM's as development machines, this README does particularly care if you use: [Digitalocean](https://digitalocean.com), [Amaazon Web Services](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/) or any other provider that could set up a linux VM. 
+
+Personally I use Digitalocean :)
+
+_NB: This setup is to be tested on Window WSL 2.0 (Windows sub system for linux)_
