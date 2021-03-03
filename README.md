@@ -60,3 +60,9 @@ A small curated list of tools, used in this setup, some might come by default fr
 7. `tmux` terminal multiplexing.
 8. `VSCode` Code text editor.
 9. `vim` fast code editing and git dialogs.
+
+# 5 Config files
+
+In this setup I follow the same kinda mentality of keeping my home clean but not having a very large `.zshrc` but rather load the basic `zsh` setup in that file and end up sourcing my own personal `env.sh` this keeps my personal changes away from the more standard `zsh` configurations, such as alias's `$PATH` extensions and.
+
+Once a new environment have had installed the various prerequisites of `zsh` & `oh-my-zsh`, next step is to clone this repository and copy my `.zshrc`, `env.sh` and `.gitconfig` to user root: `~/` and restart the system to ensure that `zsh` loads as my default terminal and loads the configs correctly.
