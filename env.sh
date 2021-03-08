@@ -5,6 +5,19 @@
 
 #!/bin/zsh
 
+# Environment Variables
+if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+  SESSION_TYPE=remote/ssh
+# many other tests omitted
+else
+  case $(ps -o comm= -p $PPID) in
+    sshd|*/sshd) SESSION_TYPE=remote/ssh;;
+  esac
+fi
+
+export SESSION_TYPE
+export MACHINE_NAME=$(uname -n)
+
 # Config Aliases
 alias zshconfig="vim $HOME/.zshrc"
 alias envconfig="vim $HOME/env.sh"
