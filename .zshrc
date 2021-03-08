@@ -11,5 +11,5 @@ ZSH_THEME="nopzen"
 plugins=(git kubectl npm docker)
 
 source $ZSH/oh-my-zsh.sh
-source ~/env.sh
+source $DOTFILES_DIR/env.sh
 
