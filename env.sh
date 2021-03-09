@@ -46,3 +46,4 @@ echo "$LIGHT_PURPLE aliases create";
 echo $DARK_PURPLE$DEVIDER
 echo "$RESET$BOLD ✔️  Nopzen.env loaded $RESET"
 echo $DARK_PURPLE$DEVIDER$RESET
+clear

@@ -48,8 +48,8 @@ EOF
 # Run the installation process
 #===============================
 run() {
-  render_header
   copy_config_files
+  render_header
 }
 
 run
