@@ -10,7 +10,7 @@ export NPZ_SESSION_TYPE
 export NPZ_MACHINE_NAME=$(uname -n)
 export NPZ_ENV_ICON
 
-echo "$RESET$BOLD Loading nopzen.env $RESET"
+echo "$RESET$BOLD ⚙️  Loading nopzen.env $RESET"
 
 echo $DARK_PURPLE$DEVIDER
 echo "$RESET$BOLD Setting environment $RESET"
@@ -44,5 +44,5 @@ alias ssh-start="eval `ssh-agent`"
 echo "$LIGHT_PURPLE aliases create";
 
 echo $DARK_PURPLE$DEVIDER
-echo "$RESET$BOLD Nopzen.env loaded $RESET"
+echo "$RESET$BOLD ✔️  Nopzen.env loaded $RESET"
 echo $DARK_PURPLE$DEVIDER$RESET
