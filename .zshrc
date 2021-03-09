@@ -6,7 +6,7 @@ export NPZ_DOTFILES=$HOME/.dotfiles
 
 # Loading env.sh before the theme, as it requires a few ENV vars,
 # to figure the diffrence between local/remote correct setup.
-source $NPZ_DOTFILES/env.sh
+source $HOME/env.sh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
