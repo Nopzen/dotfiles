@@ -1,12 +1,7 @@
 #!/bin/zsh
 tput sgr0
 
-# Colors / Format
-RESET=$(tput sgr0);
-BOLD=$(tput bold);
-WHITE=$(tput setaf 7);
-DARK_PURPLE=$(tput setaf 61);
-LIGHT_PURPLE=$(tput setaf 131);
+source $NPZ_DOTFILES/colors.sh
 
 DEVIDER="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
